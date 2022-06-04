@@ -5,6 +5,7 @@ namespace LeetCodeProblems
 {
     public static class Sum_Of_Two_Number
     {
+        //Brute force solution
         public static int[] SumOfTwoNumbers(int[] nums, int target)
         {
             int[] result = new int[2];
