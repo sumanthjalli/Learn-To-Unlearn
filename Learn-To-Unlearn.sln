@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeProblems", "LeetCod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeProblems.Test", "LeetCodeProblems.Test\LeetCodeProblems.Test.csproj", "{9F0CE170-D177-47AF-AE07-22617C01AEE5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{06D2AC12-EFC8-4C10-BA39-4F7EE111B028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9CDEC82D-80F2-4526-A75E-2394927C8EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D78EDADB-D8E9-4F9B-9C81-F0FA42A5D777} = {06D2AC12-EFC8-4C10-BA39-4F7EE111B028}
+		{1CB6C0CA-AD89-427A-961C-5C901D274FE0} = {06D2AC12-EFC8-4C10-BA39-4F7EE111B028}
+		{9F0CE170-D177-47AF-AE07-22617C01AEE5} = {9CDEC82D-80F2-4526-A75E-2394927C8EA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87A080BC-68E1-4963-9C3A-3D97C196B213}
